@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+}
+
+.header{
+    width: 100%;
+    background-color: #fada1d;
+    height:100px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 270px;
+    height: 150px;
+    object-fit: contain;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.header-btn{
+    color:black;
+    height:30px;
+    width: fit-content;
+    font-size: 26px;
+    font-weight: 500;
+    background-color: transparent;
+    border:none;
+    margin:0px 6px;
+    align-items: center;
+}
+.header-btn:hover{
+    text-decoration: underline;
+}
+.creating-btn{
+    width:280px;
+    height: 50px;
+    background-color: black;
+    color:#fada1d;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.creating-btn:hover {
+    background-color: rgb(89, 167, 161);
+    border: none;
+    color: black;
+}
+.choose-your-location-rapper{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.choose-your-location{
+    font-size: 65px;
+    font-weight: 800;
+    color:black;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    
+}
+.middle{
+    height: 680px;
+    width: 100%;
+    background-color: #FBF9EE;
+}
+.boxes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.box-image1{
+    background-image: url("https://images.getbento.com/accounts/a44a91fb3fd772840d06e31cdc2e6077/media/images/18374Image_from_iOS_1_copy.jpg?w=1200&fit=max&auto=compress,format");
+    height:400px;
+    width:570px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border:5px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box-image2{
+    background-image: url("https://images.getbento.com/accounts/a44a91fb3fd772840d06e31cdc2e6077/media/images/1499IMG_4058.JPG?w=1200&fit=max&auto=compress,format");
+    height:400px;
+    width:570px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border:5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box-image3{
+    background-image: url("https://images.getbento.com/accounts/a44a91fb3fd772840d06e31cdc2e6077/media/images/82734IMG_1375_2.JPG?w=1200&fit=max&auto=compress,format");
+    height:400px;
+    width:570px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border: 5px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-image-btn{
+    font-size: 25px;
+    color:black;
+    padding: 10px 20px;
+    border: 3px solid black;
+    background-color: #fada1d;
+    border-radius: 30px;
+    font-weight: 800;
+}
+.bottom{
+    background-color: #fada1d;
+    height:110px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+}
+.hr{
+    height:5px;
+    background-color: black;
+}
+.facebook{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(32, 32, 32);
+    color: #fada1d;
+    font-size: 20px;
+    border: none;
+    margin:0px 2px;
+    cursor: pointer;
+}
+.instagram{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(32, 32, 32);
+    color: #fada1d;
+    font-size: 20px;
+    border: none;
+    margin:0px 2px;
+    cursor: pointer;
+    
+}
+.mail{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(32, 32, 32);
+    color: #fada1d;
+    font-size: 20px;
+    border: none;
+    margin:0px 2px;
+    cursor: pointer;
+}
+.icons{
+    margin-left: 40px;
+}
+.bottom-texts{
+    font-size: 20px;
+    color:black;
+    margin-right: 30px;
+}
+.bottom-btn{
+    color:black;
+    height:30px;
+    width: fit-content;
+    font-size: 21px;
+    font-weight: 550;
+    background-color: transparent;
+    border:none;
+    margin:0px 10px;
+    align-items: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.bottom-inquire-btn{
+    height:55px;
+    width:400px;
+    background-color: black;
+    color:#fada1d;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 40px;
+    margin-left: 20px;
+    cursor:pointer;
+}
+.boy-img-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.footer{
+    height:50px;
+    width:100%;
+    background-color: black;
+}
+.footer-text{
+    color:white;
+    display: flex;
+    justify-content: center;
+    height:50px;
+    width:100%;
+    align-items: center;
+}
+.footer-para{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.box-image-btn:hover{
+    background-color: aqua;
+    color:black;
+    cursor: pointer;
+}
+.facebook:hover{
+    background-color: rgb(89, 175, 175);
+}
+.instagram:hover{
+    background-color: rgb(89, 175, 175);
+}
+.mail:hover{
+    background-color: rgb(89, 175, 175);
+}
+.bottom-btn:hover{
+    text-decoration: underline;
+}
